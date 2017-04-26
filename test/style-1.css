@@ -1,0 +1,47 @@
+.foo {
+  display: none;
+  background: red;
+}
+
+.bar {
+  display: none;
+  background: red;
+}
+
+.foo,
+.bar {
+  color: red;
+}
+
+@media (min-width: 320px) {
+  .foo {
+    display: block;
+  }
+
+  @keyframes mq-animation {
+    0% {
+      -webkit-transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(50px, 50px);
+    }
+  }
+}
+
+@webkit-keyframes animation {
+  0% {
+    -webkit-transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(50px, 50px);
+  }
+}
+
+@keyframes animation {
+  0% {
+    -webkit-transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(50px, 50px);
+  }
+}

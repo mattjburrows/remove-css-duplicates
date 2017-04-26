@@ -1,0 +1,19 @@
+{
+  "name": "css-duplicates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css": "^2.2.1",
+    "lodash": "^4.17.4",
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}

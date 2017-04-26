@@ -1,0 +1,10 @@
+.foo {
+  display: none;
+  background: red;
+}
+
+.bar {
+  display: none;
+  background: red;
+  font-size: 16px;
+}
